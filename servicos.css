@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.galeria {
+    margin: 400px;
+    width: 600px;
+    height: 800px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.foto {
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao{
+
+    25%{
+        opacity: 1;
+        transform: scale (1.1,1.1);
+    }
+    50% {
+        opacity: 0;
+    }
+}
+

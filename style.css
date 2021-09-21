@@ -1,0 +1,144 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+#menu ul {
+    margin: 0;
+    background-color: lightseagreen;  
+    list-style: none;
+}
+
+#menu ul a {
+    text-decoration: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 10px 10px;
+    display: inline-block;
+    color: white;
+}
+
+#menu ul li a:hover {
+    color: yellowgreen;
+}
+
+/* Sub Menu */
+#menu ul ul {
+    display: none;
+    left: 9%;
+    position: absolute;
+}
+
+#menu ul li:hover ul {
+    display: block;
+}
+
+#menu ul ul {
+    width: 100px;
+}
+
+#menu ul ul li a {
+    display: block;
+}
+
+/* Barra de Pesquisa */
+header form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center; /* Para centralizar um do lado do outro */
+    justify-content: space-between; /* Coloca um para o lado e o outro para o outro kkkk' */
+    background-color: lightseagreen;
+    padding: 1em; /* Para desencostar da lateral */
+}
+
+form {
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.2em;
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+form button {
+    cursor: pointer; /* Para aparecer a mãozinha */
+    background: none;
+    color: whitesmoke;
+}
+
+form button :hover{
+    color: whitesmoke;
+}
+
+/* Whatsapp */
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    color: #25d366;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+/* Instagram */
+.instagram-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 120px;
+    color:  #3f729b;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-instagram {
+    margin-top: 16px;
+}
+
+/* Facebook */
+.facebook-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 200px;
+    color:  #1630DB;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-facebook {
+    margin-top: 16px;
+}
+
+/* .... */
+
